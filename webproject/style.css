@@ -1,0 +1,156 @@
+
+div{
+   
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.logDiv{
+  
+    background: url('login.png') no-repeat;
+   
+}
+.logLabel{
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+    text-shadow: 4px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inputField{
+    flex-direction: row;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    width: 350px;
+}
+nav {
+    display: inline-block;
+    border: blue 1px solid;
+    text-align: center;
+    font-size: 18px;
+    background-color: cadetblue;
+    color: blue;
+    padding: 10px;
+    -webkit-box-shadow: 7px 26px 28px 14px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 26px 28px 14px rgba(0,0,0,0.75);
+box-shadow: 7px 26px 28px 14px rgba(0,0,0,0.75);
+margin: 30px;
+}
+h1{
+    text-align: center;
+    margin: 5%;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(17, 69, 211);
+    padding: 0%;
+}
+nav{
+    margin-left: 20%;
+}
+form{
+    margin: 10%;
+    padding: 20px;
+    align-content: center;
+    width: 400px;
+    height: 500px;
+    color: white;
+}
+#signup{
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold;
+
+}
+#signed{
+    text-align: right;
+}
+div a{
+    background-color: antiquewhite;
+}
+
+.users{
+    padding: 25px 30px;
+} 
+.users header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 20px;
+}
+.users header .content, .users-list a .content{
+    display: flex;
+}
+.users header .content img{
+    height: 50px;
+    width: 50px;
+}
+.users header .details{
+    margin-left: 15px;
+}
+.users header .details span{
+    font-size: 18px;
+    font-weight: 500;
+}
+.wrapper{
+    height: 300px;
+    width: 500px;
+}
+.wrapper img{
+    object-fit: cover;
+    border-radius: 50px;
+}
+.users header .logout{
+    background: #333;
+    color: #fff;
+    padding: 7px 15px;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.users .search{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    position: relative;
+}
+
+.users .search .text{
+    font-size: 18px;
+}
+.users .search input{
+    position: absolut;
+    height: 42px;
+    width: calc(100% - 50px);
+    border: #333 solid 1px;
+    padding: 0 13px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+.users .search button{
+    width: 47px;
+    height: 42px;
+    border: none;
+    outline: none;
+    background: #333 ;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 17px;
+
+}
+#onlinebody{
+    background: #e6e6e6;
+}
+
+users-list a{
+
+}
