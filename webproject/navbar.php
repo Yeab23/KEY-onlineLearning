@@ -8,19 +8,14 @@
 <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
 <script src="activepage.js"></script>
-<link rel="stylesheet" href="index.css">
 </head>
 <body>
-
-
-
 <div class="navbar">
-  <a href="home.php" class="active">Home</a>
+  <a href="index.php" class="active">Home</a>
   <a href="#">Overview</a>
   <a href="#">About us</a>
-  <a href="login.php" class="right">Login</a>
-  <a href="register.php" class="right">Register</a>
+  <a href="login.html" class="right">Login</a>
+  <a href="register.html" class="right">Register</a>
+  <a href="webcam.html">Webcam</a>
 </div>
-
-
 </body>
